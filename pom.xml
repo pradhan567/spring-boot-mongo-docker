@@ -84,8 +84,9 @@
 		</dependency>
 	</dependencies>
 	<build>
-			<plugin>
-				<groupId>org.jacoco</groupId>
+       	<plugins>
+        	<plugin>
+		<groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
                 <executions>
